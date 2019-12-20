@@ -1,0 +1,29 @@
+.cv-div{
+    .header{
+        position: relative;
+        background-color: #252626;
+        height: 300px;
+        width: 100%;
+        margin-top: 10px;
+        color: white;
+        font-size:18px;
+        .text-container{
+            position: absolute;
+            top: 30%;
+            left: 40%;
+         
+            .designation{
+                color:#0bc1c1;
+            }
+        }
+        
+    }
+    .sideBar{
+        width: 300px;
+        background-color: #0bc1c1;
+        height:500px;
+        margin-left: 60px;
+        position: absolute;
+        top:0;
+    }
+}

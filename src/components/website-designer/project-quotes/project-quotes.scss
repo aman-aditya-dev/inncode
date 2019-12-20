@@ -1,0 +1,13 @@
+@import '../../../assets/colors.scss';
+#quotes-main-div{
+  h2,h3{
+      color:$fontColorLight;
+    
+  }
+  input{
+      background: $secondaryColor;
+      color:$fontColorLight;
+      border-radius: 40px;
+      padding: 10px 12px; 
+  }
+}

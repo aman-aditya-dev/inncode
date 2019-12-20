@@ -1,0 +1,23 @@
+@import '../../../assets/colors.scss';
+.slimHeader{
+    color: #e34234;
+    padding: 0;
+    transition: all .5s ease-in-out;
+    z-index: 2500;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    .app-bar-background{
+        background: $primaryColor ;
+    }
+    svg{
+        color: $fontColorLight;
+    }
+    span{
+        color: $fontColorLight;
+    }
+    .sHeading{
+        color: $secondaryColor;
+    }
+}

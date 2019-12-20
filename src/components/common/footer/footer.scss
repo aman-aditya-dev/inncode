@@ -1,0 +1,30 @@
+@import '../../../assets/colors.scss';
+.footer-main{
+    width: 100%;
+    background: $fontColorLight;
+    min-height: 15rem;
+    background-image: -webkit-linear-gradient(-30deg, $fontColorLight 12%, $sideBarColor 45%);
+.leftHalf{
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+    text-align: left;
+    color: $secondaryColor;
+}
+.lHeading{
+    font-size:4rem;
+}
+.address{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: barlow;
+    color: $primaryColor    ;
+    letter-spacing: .15em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    vertical-align: baseline;
+}
+.rightHalf{
+    padding-top:3rem;
+}
+}

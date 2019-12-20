@@ -1,0 +1,24 @@
+@import '../../../assets/colors.scss';
+.serviceOffered{
+    color: $fontColorLight;
+    h1{
+        font-size: 48px;
+        padding:10%;
+    }
+    >div{
+        display: inline-block;
+    }
+    .descTile{
+        width: calc(100%/3);
+        width: -webkit-calc(100%/3);
+        border-right: 1px solid $fontColorLight;
+        border-bottom: 1px solid $fontColorLight;
+        background: $primaryColor;
+        height: 440px;
+        float: left;
+        padding: 1%;
+    }
+    .descTile:hover{
+        background: $secondaryColor;
+    }
+}

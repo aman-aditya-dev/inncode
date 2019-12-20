@@ -1,0 +1,106 @@
+@import './assets/colors.scss';
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.App {
+  text-align: center;
+  background: $primaryColor ;
+}
+.wrap{
+  margin-top: 4rem;
+}
+.lHeading{
+  font-family: $headingFamily;
+  font-weight: 700;
+  font-size: 3rem;
+  color: $secondaryColor;
+}
+@media (min-width: 600px) {
+  .lHeading {
+    font-family: $headingFamily;
+    font-weight: 900;
+    font-size: 6rem;
+    color: $secondaryColor;
+  }
+}
+
+
+
+.mHeading{
+  font-weight:600;
+  font-size: 2rem;
+  color: $secondaryColor;
+}
+.sHeading{
+  font-weight:500;
+  font-size: 1.5rem;
+  color: $secondaryColor;
+}
+.xmHeading{
+  font-weight:300;
+  font-size: 1rem;
+  color: $secondaryColor;
+}
+.lHeadingLight{
+  font-size: 3rem;
+  color: $fontColorLight;
+}
+.mHeadingLight{
+    font-size: 2rem;
+    color: $fontColorLight;
+}
+.sHeadingLight{
+  font-size: 1.5rem;
+  color: $fontColorLight;
+}
+.xmHeadingLight{
+  font-weight:300;
+  font-size: 1rem;
+  color: $fontColorLight;
+}
+.lHeadingDark{
+  font-size: 3rem;
+  color: $fontColorLight;
+}
+.mHeadingDark{
+    font-size: 2rem;
+    color: $primaryColor;
+}
+.sHeadingDark{
+  font-size: 1.5rem;
+  color: $primaryColor;
+}
+.xmHeadingDark{
+  font-weight:300;
+  font-size: 1rem;
+  color: $primaryColor;
+}
+.lightPara{
+  font-size:1.5rem;
+  color: $primaryColor;
+}
+.secondaryPara{
+  font-size:1.5rem;
+  color: $secondaryColor;
+}
+li a{
+  font-size: 2rem;
+  color: $fontColorLight;
+  font-weight:500;
+}
+li a:hover{
+  color: $fontColorLight;
+  text-decoration:none;
+}
+li a:focus{
+  color: $fontColorLight;
+  text-decoration:none;
+}
+li{
+  list-style-type: none;
+}
+.user-card-body .user-card-name{
+  font-size:2rem;
+  color: $secondaryColor;
+}

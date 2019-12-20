@@ -1,0 +1,52 @@
+@import '../../../assets/colors.scss';
+.servicesCards{
+    margin-top:15rem;
+    margin-bottom: 15rem;
+    display: flex;
+     h4{
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            margin-top: 2.4rem;
+            margin-left:4%;
+            text-align:left;
+            margin-right: 4%;
+        }
+        h2{
+            margin-left: 4%;
+            font-size: 6rem;
+            font-weight: 800;
+            letter-spacing: -.03em;
+            line-height: .95;
+            margin-bottom: 55%;
+            text-align:left;
+            margin-right: 4%;
+    }
+    .left{
+        color: $fontColorLight;
+        margin-left: 5%;
+        margin-right: 5%;
+        width:  40%;
+        height: 70rem;
+        background:url('../../../assets/services-dev.jpg');
+    }
+    .right{
+        color: $fontColorLight;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: calc(100%/2.5);
+        height: 70rem;
+        background:url('../../../assets/services-hos.jpg');
+    }
+    .right:hover{
+        background:$secondaryColor;
+        opacity:1;
+        
+    }
+    .left:hover{
+        background:$secondaryColor;
+        opacity: 1;
+    }
+}

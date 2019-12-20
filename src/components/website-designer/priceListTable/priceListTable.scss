@@ -1,0 +1,10 @@
+@import '../../../assets/colors.scss';
+#pricelistTable{
+    #basic-header{
+        background: $secondaryColor;
+        color: $fontColorLight;
+    }
+    li{
+        color: $fontColorLight;
+    }
+}

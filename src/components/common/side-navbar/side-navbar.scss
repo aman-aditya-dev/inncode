@@ -1,0 +1,64 @@
+@import '../../../assets/colors.scss';
+.sidebar{
+    background-color: $sideBarColor;
+    height: 100%;
+    width: 8.35%;
+    position: fixed;
+    left: 0;
+    z-index: 10;
+    text-align: center;
+    .homeCompany{
+        a, a:focus, a:hover{
+        color: $secondaryColor;
+        }
+        
+    }
+    li{
+        margin-top:12rem;
+        margin-bottom:6rem;
+        a{  
+            padding-top: 30%;
+            padding-bottom: 70%;
+            float: left;
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            -webkit-transform-origin: left top 0; 
+             transform-origin: left top 0; 
+        }
+    }
+}
+.onhoverServices{
+    background: $sideBarColor;
+    top: 20rem;
+    left: 11.5rem;
+    position: fixed;
+    z-index: 2200;
+    text-align: left;
+    padding: 3%;
+    
+    a{
+        display:block;
+        color: $fontColorLight;
+        font-size: 2rem;
+        padding: 10px 10px;
+    }
+}
+.paper {
+    top: 19rem !important;
+    left: 11.5rem !important;
+    position: relative;
+    position: relative;
+    width: 20%;
+    background-color:$sideBarColor;
+    box-shadow: #ffffff;
+    padding: 20px;
+    outline: none;
+    h6{
+    a{
+        color:$secondaryColor;
+        font-size: 1.5rem;
+        display: block;
+        padding-left:20%;
+    }
+    }
+  }

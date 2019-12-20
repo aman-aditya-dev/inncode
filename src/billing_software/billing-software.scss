@@ -1,0 +1,132 @@
+.container {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+    .side-border {
+        border-right: 1px solid black;
+    }
+    .earning-heading-div div {
+        padding-top: 6px;
+        padding-bottom: 6px
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .desc-para {
+        margin-left: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 10px;
+    }
+    .np-in-words {
+        font-size: 10px;
+    }
+    .no-attest {
+        text-align: center;
+        margin-left: 50%;
+        transform: translate(-50%, 10px);
+        font-size: 10px;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+    .desc-head {
+        // margin-left: 6px
+    }
+    .bottom-border {
+        border-bottom: 1px solid black;
+    }
+    .lowerDiv {
+        margin-top: 20px;
+    }
+    .lowerDivMainContent {
+        // margin-left: 0.5%;
+        // margin-right: 0.5%;
+        // margin-top: 0.5%;
+    }
+    .comp-details {
+        margin-left: 15px;
+        h3 {
+            margin-bottom: 0;
+        }
+        p {
+            margin: 0;
+        }
+    }
+    .logo {
+        padding: 30px;
+    }
+    .minWagesAct {
+        margin-top: 8px;
+    }
+    .salary-month-heading {
+        text-align: center;
+        font-weight: 600;
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .rule-24 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+        margin-top: 0;
+    }
+    .desc-outline {
+        h3 {
+            width: 30%;
+        }
+        h3,
+        span {
+            margin: 0;
+            font-size: 12px;
+        }
+        span {
+            margin-left: 4%;
+        }
+    }
+    .left-desc-container {
+        width: 50%;
+    }
+    .right-desc-container {
+        width: 50%;
+        float: right
+    }
+}
+
+.l-display-flex {
+    display: flex;
+}
+
+.l-margin-large {
+    margin: 10px
+}
+
+.l-float-right {
+    float: right;
+}
+
+.outline-border {
+    border: 1px solid black;
+}
+
+// form
+.form-main-container {
+    // display: grid
+    input {
+        padding: 15px 10px;
+        width: 30% !important;
+        outline: none;
+        border: 1px solid #bbb;
+        border-radius: 20px;
+        display: inline-block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -ms-transition: 0.2s ease all;
+        -o-transition: 0.2s ease all;
+        transition: 0.2s ease all;
+    }
+}

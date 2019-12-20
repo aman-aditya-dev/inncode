@@ -1,0 +1,23 @@
+@import '../../../assets/colors.scss';
+.introDiv{
+    background: linear-gradient(to right, $secondaryColor, $primaryColor);
+    height: 600px;
+    color: $fontColorLight;
+    .heading{
+        padding-top: 162px;
+        padding-left: 140px;
+        h1{
+            width: 40%;
+        }
+    }
+    h1{
+        font-weight: 900;
+        font-size: 72px;
+    }
+    .para{
+        padding-left: 10%;
+        text-align: left;
+        width: 66%;
+        padding-top: 13px;
+    }
+}

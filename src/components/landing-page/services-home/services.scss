@@ -1,0 +1,39 @@
+@import '../../../assets/colors.scss';
+#services{
+    padding-bottom:10rem;
+    padding-top: 10rem;
+    .user-card-body {
+        .user-card-name {
+            font-size: 2rem;
+            color: $secondaryColor;
+            font-weight: 500;
+        }
+        .user-card-position-name{
+            font-size: 1.5rem;
+            color: $primaryColor;
+        }
+        
+    
+    }
+    .card{
+        background-color: $fontColorLight;
+        .user-card-avatar{
+            display: none;
+        }
+    }
+    .card:hover{
+        .user-card-header{
+            background: $secondaryColor !important;
+        }
+        .user-card-position-name{
+            color:  $secondaryColor;
+        }
+        .user-card-name{
+            color: $fontColorLight;
+        }
+        .user-card-avatar{
+            display: block;
+        }
+        background-color: $secondaryColor;
+    }
+}
